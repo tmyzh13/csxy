@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.bm.csxy.widget.NavBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav"
+        />
+
+    <com.corelibs.views.ptr.layout.PtrLollipopLayout
+        android:id="@+id/ptrLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.bm.csxy.widget.AdView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:id="@+id/v_ad"
+                    />
+                <com.corelibs.views.NoScrollingGridView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gv_type"
+                    android:listSelector="@color/transparent"
+                    android:cacheColorHint="@color/transparent"
+                    android:numColumns="2"
+                    android:horizontalSpacing="10dp"
+                    android:verticalSpacing="10dp"
+                    android:scrollbars="none"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="4dp"
+                    />
+            </LinearLayout>
+
+        </ScrollView>
+
+        </com.corelibs.views.ptr.layout.PtrLollipopLayout>
+
+</LinearLayout>

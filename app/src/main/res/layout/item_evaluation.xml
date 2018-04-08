@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+
+    <com.bm.csxy.widget.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/iv_icon"
+        android:src="@mipmap/head_default_image"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="张小娴"
+        android:id="@+id/tv_name"
+        android:textColor="@color/text_color_main"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/iv_icon"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="2016-04-23"
+        android:id="@+id/commentCtime"
+        android:textColor="@color/text_color_shallow"
+        android:layout_below="@id/tv_name"
+        android:layout_alignLeft="@id/tv_name"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0分"
+        android:textSize="10dp"
+        android:id="@+id/tv_score"
+        android:textColor="@color/app_yellow"
+        android:gravity="bottom"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"/>
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_centerHorizontal="true"
+        style="@style/redRatingBar"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:rating="0"
+        android:isIndicator="true"
+        android:layout_toLeftOf="@id/tv_score"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="21dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/light_black"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo"
+        android:id="@+id/commentContent"
+        android:layout_below="@id/iv_icon"
+        android:layout_alignLeft="@id/iv_icon"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        style="@style/text_normal"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:textColor="@color/text_color_main"
+        android:background="@color/bg"
+        android:text="客服回复：sssssssssssssss"
+        android:layout_below="@id/commentContent"
+        android:id="@+id/tv_recover"
+        />
+</RelativeLayout>

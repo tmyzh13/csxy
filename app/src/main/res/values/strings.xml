@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">张家界实惠自由行</string>
+
+    <string name="tab_home">首页</string>
+    <string name="tab_msg">消息</string>
+    <string name="tab_order">订单</string>
+    <string name="tab_mine">我的</string>
+
+    <string name="tag_first">"1"</string>
+    <string name="tag_two">"2"</string>
+    <string name="tag_third">"3"</string>
+    <string name="tag_four">"4"</string>
+    <string name="tag_five">"5"</string>
+    <string name="tag_six">"6"</string>
+    <string name="tag_seven">"7"</string>
+    <string name="tag_eight">"8"</string>
+    <string name="tag_nine">"9"</string>
+    <string name="tag_ten">"10"</string>
+
+    <!--产品相关-->
+    <string name="product_money_f">￥</string>
+    <string name="product_money_hint">元起</string>
+    <string name="product_money_hint_1">天</string>
+    <string name="choice_product">我要报名</string>
+    <string name="choice_product_day">出行日期</string>
+    <string name="choice_product_travel">行程安排</string>
+    <string name="choice_product_year">年</string>
+    <string name="choice_product_month">月</string>
+    <string name="choice_product_day_hint">日</string>
+    <string name="choice_product_price">行程费用</string>
+    <string name="choice_product_hint">/份</string>
+    <string name="choice_product_hint_1">费用包含</string>
+    <string name="choice_product_hint_2">费用不含</string>
+    <string name="choice_product_show_time">演出时间</string>
+    <string name="choice_product_ticket_type">门票种类</string>
+    <string name="choice_product_connect">联系人</string>
+    <string name="choice_product_connect_hint">姓名</string>
+    <string name="choice_product_phone">手机号</string>
+    <string name="choice_product_phone_hint">非常重要</string>
+    <string name="choice_product_customer">服务客服</string>
+    <string name="choice_product_customer_center">实惠自由行客服中心</string>
+    <string name="choice_product_connect_customer">联系客服</string>
+    <string name="choice_product_customer_hint">为了避免耽误您的旅行，请务必提前48小时与客服确认行程。</string>
+    <string name="choice_product_money">金额</string>
+    <string name="choice_confirm_order">提交订单</string>
+    <string name="choice_product_f_1">【</string>
+    <string name="choice_product_f_2">】</string>
+    <string name="choice_product_agreemet_hint">报名即视为同意</string>
+    <string name="choice_product_agreemet">续订须知及旅游合同</string>
+
+    <string name="user_evalution">用户评价</string>
+    <string name="confirm_order">确认订单</string>
+    <string name="confirm_order_number">订单编号</string>
+    <string name="confirm_order_date">出行日期</string>
+    <string name="confirm_order_content">订单内容</string>
+    <string name="confirm_order_connect">联系人</string>
+    <string name="confirm_order_phone">手机号</string>
+    <string name="confirm_order_money">金额</string>
+    <string name="confirm_order_dian">电话</string>
+    <string name="confirm_order_customer">客服</string>
+    <string name="confirm_order_baoming">我要预订</string>
+    <string name="product_detail_user_evalution">用户评价</string>
+    <string name="product_detail_travel_view">行程预览</string>
+    <string name="product_detail_play">游玩攻略</string>
+    <string name="product_detail_customer_center">实惠自由行客服中心</string>
+    <string name="product_detail_customer_dianhua">客服电话：</string>
+    <string name="product_detail_customer_wechat">客服微信：</string>
+    <string name="product_detail_customer_time">咨询时间：</string>
+
+    <string name="travel_order_num">订单编号：</string>
+    <string name="travel_order_paying">待付款</string>
+    <string name="travel_order_commenting">待评价</string>
+    <string name="travel_order_refund">退款</string>
+    <string name="travel_order_count">数量：</string>
+    <string name="travel_order_total_price">总价：</string>
+    <string name="travel_order_pay">付款</string>
+    <string name="travel_order_comment">评价</string>
+    <string name="travel_order_all">全部</string>
+    <string name="travel_order_check_detail">查看详情</string>
+
+    <string name="travel_order_detail">订单详情</string>
+    <string name="travel_order_detail_name">景区名称</string>
+    <string name="travel_order_detail_num">订单号</string>
+    <string name="travel_order_detail_phone">手机号</string>
+    <string name="travel_order_detail_travel_name">出行人</string>
+    <string name="travel_order_detail_time">出发日期</string>
+    <string name="travel_order_detail_total_price">总价</string>
+    <string name="travel_order_detail_pay_time">付款时间</string>
+    <string name="travel_order_detail_identify">身份证号</string>
+    <string name="travel_order_detail_count">数量</string>
+    <string name="travel_order_time">下单时间</string>
+    <string name="travel_order_detail_dianhua">电话</string>
+    <string name="travel_order_detail_customer">客服</string>
+
+    <string name="travel_comment">评价</string>
+    <string name="travel_score">评分</string>
+    <string name="travel_content_hint">您对此景区有什么评价~写出来吧</string>
+    <string name="travel_content_send">发布</string>
+
+    <string name="travel_pay">付款</string>
+    <string name="travel_pay_all_money">支付全额</string>
+    <string name="travel_pay_style">支付方式</string>
+    <string name="travel_pay_alipay">支付宝支付</string>
+    <string name="travel_pay_wechat">微信支付</string>
+    <string name="travel_pay_confirm">确认支付</string>
+
+    <string name="umeng_update_content">版本号：6.4.5\n1.更新了QQ精简版与完整版支持轻聊\n2.更新了新浪SDK，修复了授权在部分rom上不能唤起客户端的bug\n3.有道云笔记更新为官方SDK</string>
+    <string name="umeng_home_title">U-Share产品Demo</string>
+    <string name="umeng_home_update">新版更新内容</string>
+    <string name="umeng_share_title">分享</string>
+    <string name="umeng_auth_title">授权</string>
+    <string name="umeng_delauth_title">删除授权</string>
+    <string name="umeng_getinfo_title">获取用户信息</string>
+    <string name="umeng_check_title">自检工具</string>
+    <string name="umeng_menu_title">分享菜单模板</string>
+
+    <string name="umeng_check_sign">检查签名</string>
+    <string name="umeng_check_sina">检查新浪</string>
+    <string name="umeng_check_wx">检查微信</string>
+    <string name="umeng_check_alipay">检查支付宝</string>
+    <string name="umeng_check_qq">检查qq</string>
+    <string name="umeng_check_fb">检查facebook</string>
+    <string name="umeng_check_vk">vkontakte</string>
+    <string name="umeng_choose_style">选择分享类型</string>
+
+    <string name="umeng_sharebutton_copy">复制文本</string>
+    <string name="umeng_sharebutton_copyurl">复制连接</string>
+
+    <string name="action_camera">拍照</string>
+    <string name="action_gallery">从相册选择</string>
+    <string name="action_cancel">取消</string>
+</resources>

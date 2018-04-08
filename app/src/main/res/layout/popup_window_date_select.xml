@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:su="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pw_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#88000000" >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FDFDFD"
+        android:clickable="true"
+        android:orientation="vertical" >
+
+
+        <DatePicker
+            android:background="#ededed"
+            android:id="@+id/date_picker_selecter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false" />
+    </LinearLayout>
+
+</RelativeLayout>

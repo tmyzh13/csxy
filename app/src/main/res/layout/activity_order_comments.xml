@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <com.bm.csxy.widget.NavBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            style="@style/text_normal"
+            android:textColor="@color/text_color_main"
+            android:text="@string/travel_score"
+            />
+        <RatingBar
+            android:id="@+id/ratinbar_score"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stepSize="1"
+            android:numStars="5"
+            android:rating="5"
+            style="@style/ratingBar"
+            android:layout_gravity="center"
+            android:isIndicator="false"
+            android:layout_marginLeft="50dp"/>
+    </RelativeLayout>
+
+    <EditText
+        android:layout_marginTop="1dip"
+        style="@style/edit_normal"
+        android:id="@+id/et_content"
+        android:hint="@string/travel_content_hint"
+        android:background="@color/white"
+        android:textColor="@color/text_color_main"
+        android:textColorHint="@color/text_color_shallow"
+        android:gravity="top"
+        android:padding="5dp"
+        android:layout_height="200dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_blue_bg"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/travel_content_send"
+        android:id="@+id/tv_send"
+        />
+
+</LinearLayout>

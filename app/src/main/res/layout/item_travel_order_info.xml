@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        >
+        <TextView
+            style="@style/text_normal"
+            android:text="@string/travel_order_detail_phone"
+            android:textColor="@color/text_color_main"
+            />
+        <TextView
+            android:layout_alignParentRight="true"
+            style="@style/text_normal"
+            android:text="18672802069"
+            android:id="@+id/tv_travel_order_detail_phone"
+            android:textColor="@color/text_color_main" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        >
+        <TextView
+            style="@style/text_normal"
+            android:text="@string/travel_order_detail_travel_name"
+            android:textColor="@color/text_color_main"
+            />
+        <TextView
+            android:layout_alignParentRight="true"
+            style="@style/text_normal"
+            android:text="yyy"
+            android:id="@+id/tv_travel_order_detail_travel_name"
+            android:textColor="@color/text_color_main" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        >
+        <TextView
+            style="@style/text_normal"
+            android:text="@string/travel_order_detail_identify"
+            android:textColor="@color/text_color_main"
+            />
+        <TextView
+            android:layout_alignParentRight="true"
+            style="@style/text_normal"
+            android:text="429002233424565667"
+            android:id="@+id/tv_travel_order_detail_identify"
+            android:textColor="@color/text_color_main" />
+    </RelativeLayout>
+</LinearLayout>

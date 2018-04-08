@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33000000"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/choose_window_bg"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/tv_camera"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/nav_height"
+            android:gravity="center"
+            android:textColor="@color/main_bg"
+            android:textSize="@dimen/text_normal"
+            android:text="@string/action_camera"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@mipmap/line_blue"
+            />
+
+        <TextView
+            android:id="@+id/tv_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/nav_height"
+            android:gravity="center"
+            android:textColor="@color/main_bg"
+            android:textSize="@dimen/text_normal"
+            android:text="@string/action_gallery"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_height"
+        android:gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/text_main"
+        android:textSize="@dimen/text_normal"
+        android:text="@string/action_cancel"
+        android:background="@drawable/choose_window_bg">
+
+    </TextView>
+
+</LinearLayout>

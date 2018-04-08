@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    >
+
+    <com.bm.csxy.widget.NavBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav"
+        />
+
+    <com.corelibs.views.ptr.layout.PtrAutoLoadMoreLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ptrLayout"
+        >
+        <com.corelibs.views.ptr.loadmore.widget.AutoLoadMoreListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="0dp"
+            android:listSelector="@color/transparent"
+            android:id="@+id/lv_product"
+            />
+    </com.corelibs.views.ptr.layout.PtrAutoLoadMoreLayout>
+</LinearLayout>
