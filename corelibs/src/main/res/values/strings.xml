@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- general -->
+    <string name="app_name">CoreLibs</string>
+    <string name="delay_load">300</string>
+    <string name="general_error">Erroneous data, please try again later</string>
+    <string name="general_server_down">Bad internet connection,request timeout</string>
+    <string name="general_no_internet">Network failure, please check your network</string>
+    <string name="general_network_error">Erroneous network, please check the network settings</string>
+    <string name="general_force_close">Sorry, an error has occured, the programm will be closed!</string>
+    <string name="general_no_gallery_app">The corresponding program could not be found</string>
+    <string name="general_no_camera_app">There is no program to perform camera operations</string>
+    <string name="general_download_error">Sorry, the application cannot be downloaded!</string>
+    <string name="general_code_error">Erroneous data</string>
+
+    <string name="disconnect">Disconnected</string>
+    <string name="disconnect_try_again">Please try again</string>
+    <!-- general -->
+</resources>

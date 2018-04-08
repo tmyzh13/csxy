@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_error">network erroneous, please check your network and try again</string>
+    <string name="network_server_error">server erroneous, please try again later	</string>
+    <string name="network_timeout">Connection timeout, please try again later</string>
+    <string name="network_other">data erroneous, please try again later</string>
+</resources>

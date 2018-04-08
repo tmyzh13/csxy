@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_error">Internetsignal nicht stabil, bitte internetverbindung prüfen, erneut verbinden oder wechseln</string>
+    <string name="network_server_error">Verbindung zum Server kann nicht hergestellt werden und Serverstatus kann nicht abgefragt werden, bitte später nochmal versuchen.</string>
+    <string name="network_timeout">Zeitüberschreitung - Daten vom Server konnten nicht empfangen werden, bitte überprüfen Sie Ihre Internetverbindung oder wechseln zu einer stabileren, schnelleren Verbindung.</string>
+    <string name="network_other">Der Steuersatz des Geschäfts und der auf dem Server stimmen nicht überein; Inkonsistenz in Bezug auf Geschäftskonfiguration und Server-Reaktion</string>
+</resources>

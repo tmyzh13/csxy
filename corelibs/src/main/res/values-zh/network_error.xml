@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_error">网络信号不稳定，请检查您的网络，并重新连接或切换网络。</string>
+    <string name="network_server_error">无法连接并获取服务器状态，请稍后重试。</string>
+    <string name="network_timeout">网络连接服务器获取数据超时，请检查您的网络或切换到稳定快速的网络。</string>
+    <string name="network_other">商店税率和服务器返回的税率不一致，商店配置和服务器返回的不一致</string>
+</resources>

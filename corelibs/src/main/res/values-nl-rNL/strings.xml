@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- general -->
+    <string name="app_name">CoreLibs</string>
+    <string name="delay_load">300</string>
+    <string name="general_error">Foutieve gegevens, probeer het later nogmaals</string>
+    <string name="general_server_down">Slechte internetverbinding, time-out van request</string>
+    <string name="general_no_internet">Netwerkfout, controleer alstublieft uw netwerk</string>
+    <string name="general_network_error">Foutief netwerk, controleer de netwerkinstellingen</string>
+    <string name="general_force_close">Sorry, er is een fout opgetreden, het programma wordt afgesloten!</string>
+    <string name="general_no_gallery_app">Het overeenkomstige programma kon niet worden gevonden</string>
+    <string name="general_no_camera_app">Er is geen programma om cameraoperaties uit te voeren</string>
+    <string name="general_download_error">Sorry, de applicatie kan niet worden gedownload!</string>
+    <string name="general_code_error">Foutieve gegevens</string>
+
+    <string name="disconnect">Losgekoppeld</string>
+    <string name="disconnect_try_again">Probeer het opnieuw</string>
+    <!-- general -->
+</resources>

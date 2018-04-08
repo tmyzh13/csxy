@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_error">Internet signal in not stable, please check your internet onnection, reconnect it or switch it</string>
+    <string name="network_server_error">Unable to connect to the service or to receive a server status, please try again later</string>
+    <string name="network_timeout">Timeout - Data was not received from server, please check your internet connection or switch to a more stable and faster connection.</string>
+    <string name="network_other">The store\'s tax rate and the server\'s tax rate is not identical; inconsistency concerning store configuration and server response</string>
+</resources>

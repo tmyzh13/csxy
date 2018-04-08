@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_error">Internetsignaal niet stabiel, internetverbinding controleren, opnieuw verbinden of wisselen a.u.b.</string>
+    <string name="network_server_error">Er kan geen verbinding met de server tot stand worden gebracht en serverstatus kan niet worden opgevraagd, later nogmaals proberen a.u.b.</string>
+    <string name="network_timeout">Time-out gegevens van de server kunnen niet worden ontvangen, uw internetverbinding controleren of naar een stabielere, snellere verbinding overstappen a.u.b.</string>
+    <string name="network_other">Het belastingtarief van de winkel en dat van de server komen niet overeen; inconsistentie met betrekking tot winkelconfiguratie en serverrespons</string>
+</resources>
